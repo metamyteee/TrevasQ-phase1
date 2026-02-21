@@ -21,7 +21,7 @@ def api_keygen():
     public_key, secret_key = keygen()
     return {
         "public_key": public_key,
-        "secret_key": secret_key
+        "secret_key": secret_key,
     }
 
 
