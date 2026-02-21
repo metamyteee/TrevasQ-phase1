@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
 
-const API = "/api";
+const API = "https://trevasq-phase1.onrender.com";
 const CIPHER_TTL = 60; 
 
 function Spin() { return <span className="spin" />; }
