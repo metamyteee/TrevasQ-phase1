@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "/api";
 const CIPHER_TTL = 60; 
 
 function Spin() { return <span className="spin" />; }
