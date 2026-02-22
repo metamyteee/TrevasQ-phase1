@@ -2,7 +2,7 @@ import numpy as np
 n = 32
 q = 512
 noise_bound = 1
-REPEAT = 10
+REPEAT = 30
 
 def keygen():
     s = np.random.randint(0, q, size=n)
